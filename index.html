@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhijal Website</title>
+  <style>
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  color: #004d40;
+  /* overflow: hidden; disables scroll */
+}
+
+
+    header {
+      background-color: #0288d1; /* Ocean blue */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      color: white;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+  height: 100vh;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+    section:nth-child(even) {
+      background-color: #b2ebf2;
+    }
+
+    .text-area, .image-area {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .image-area img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-us-img {
+      width: 100%;
+      height: 200px;
+      background-color: #4dd0e1;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Abhijal</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#about">About Us</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="image-area">
+      <img src="https://via.placeholder.com/400x300" alt="Home Image">
+    </div>
+    <div class="text-area">
+      <h2>Welcome to Abhijal</h2>
+      <p>Discover the depth of innovation and clarity with our ocean-inspired solutions.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <div class="text-area">
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out and let's make waves together!</p>
+    </div>
+    <div class="image-area">
+      <img src="https://via.placeholder.com/400x300" alt="Contact Image">
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" style="flex-direction: column; text-align: center;">
+    <div class="about-us-img"></div>
+    <div class="text-area" style="max-width: 800px; margin: auto;">
+      <h2>About Us</h2>
+      <p>At Abhijal, we are passionate about blending creativity with the calm and powerful energy of water. Our mission is to deliver fluid experiences and meaningful impact through our work.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Abhijal. All rights reserved. Designed with love and ocean vibes.</p>
+  </footer>
+
+</body>
+</html>
